@@ -1,5 +1,5 @@
 <?php
-    $myPDO = new PDO('sqlite:C:\xampp\htdocs\python-fibrosur\productos.db');
+    $myPDO = new PDO('sqlite:productos.db');
 ?>
 
 <!DOCTYPE html>
