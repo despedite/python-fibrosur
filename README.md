@@ -11,7 +11,14 @@ Una aplicación con múltiples capas: una base de datos en SQLite 3 que tiene to
 ![](https://github.com/despediteerik/python-fibrosur/blob/master/fibro.png)
 
 # Dependencias
-TBA
+*Para ejecutar el programa de Python:*
+- [Python 3.x](https://www.python.org/downloads/) (no probado en 2.x)
+- TkInter
+- SQLite3
+(Incluidas en la Libreria Estándar de Python)
+
+*Para abrir el sitio web:*
+- [XAMPP](https://www.apachefriends.org/es/index.html)
 
 # Instalación
 Para instalar los archivos de Python + PHP en tu computadora:
@@ -22,10 +29,10 @@ Para instalar los archivos de Python + PHP en tu computadora:
 - **Para ver la página:** Dirigite a localhost/fibrosur en tu navegador de elección.
 - **Para ver las entradas de la BD:** Abrí fibrosur.py.
 
-# Uso
-TBA
+# Cómo usar
+Una descripción extensiva de cómo usar el archivo de Python, y el sitio web en PHP, puede ser encontrada en la [documentación original](https://github.com/despediteerik/python-fibrosur/blob/master/Fibrosur%20Argentina%20-%20Documentaci%C3%B3n.pdf), en formato PDF. (También hay una versión disponible en [Documentos de Google](https://docs.google.com/document/d/1NCKKZHMvO8WGp98ArTn5bPN-Ow-NXnm2ZmoRgNv6-kY/edit?usp=sharing).)
 
 # Créditos y licencia
-ADE proporciona una API para que cualquiera pueda usar los datos en la base de datos del sistema, pero no es soportada oficialmente. La API que se crea a partir de una base de datos en MySQL es posible gracias a [Automatic-API-REST](https://github.com/GeekyTheory/Automatic-API-REST).
+Gran parte del código de la GUI de Python es tomado de [Python GUI Bookstore](https://github.com/gn03249822/Python-GUI-Bookstore), de Daniel Huang.
 
-ADE está bajo la licencia [GNU - General Public License 3.0](https://github.com/despediteerik/ADE/blob/master/LICENSE). Podés usar ADE de forma comercial o privada, y permite la distribución y modificación; mientras que compartas el código fuente, documentes los cambios  y uses la misma licencia.
+Fibrosur Arg (el programa) está bajo la licencia [Apache License 2.0](https://github.com/despediteerik/python-fibrosur/blob/master/LICENSE). Podés usar ADE de forma comercial o privada, y permite la distribución y modificación mientras que muestres los cambios hechos al código fuente; y elimines el material licensiado (por ejemplo, los logos de Fibrosur Arg).
